@@ -147,6 +147,42 @@ div.wrapper{
 	}
 }
 
+@media (max-width: 560px) {
+	div.wrapper {
+		top: 129px;
+	}
+}
+
+@media (max-width: 353px) {
+	button.tab {
+		margin-right: 7px;
+	}
+}
+
+@media (max-width: 560px) and (min-width: 478px) {
+	div.wrapper {
+		margin-left: 11%;
+	}
+}
+
+@media (max-width: 424px) {
+	.views {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 561px) {
+	div.wrapper {
+		left: 20%;
+	}
+}
+
+@media (max-width: 768px) and (min-width: 653px) {
+	div.tools {
+		margin-left: 12%;
+	}
+}
+
 .media-wall-route {
 	text-decoration: none;
 	color: rgba(0,0,0,.87);
