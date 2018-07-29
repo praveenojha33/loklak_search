@@ -153,12 +153,6 @@ div.wrapper{
 	}
 }
 
-@media (max-width: 353px) {
-	button.tab {
-		margin-right: 7px;
-	}
-}
-
 @media (max-width: 560px) and (min-width: 478px) {
 	div.wrapper {
 		margin-left: 11%;
@@ -166,8 +160,28 @@ div.wrapper{
 }
 
 @media (max-width: 424px) {
-	.views {
-		display: none;
+	button.tab{
+		margin-right: 0px!important;
+	}
+	button.tab.tool-tab{
+		margin-left: 48px!important;
+	}
+}
+@media (max-width: 380px)  {
+	button.tab.tool-tab{
+		margin-left: 8px!important;
+	}
+}
+@media (max-width: 340px) {
+	button.tab.list{
+		padding: 10px 0 10px 10px;
+	}
+	button.tab.tool-tab{
+		margin-right: -15px!important;
+		padding: 12px 12px 12px 0px!important
+	}
+	div.tools{
+		margin-left: 0px!important;
 	}
 }
 
